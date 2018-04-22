@@ -16,7 +16,10 @@ body{
  h5{
      font-size:20px !important;
  }
-    
+  .headimg{
+    width:90vw !important;
+    height:19vh !important;
+} 
 }
 a,a:hover,a:focus{
     color:#88CBD2;
