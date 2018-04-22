@@ -87,8 +87,8 @@ a,a:hover,a:focus{
 .headimg{
     display:block;
     margin:0 auto;
-    width:85vw;
-    height:60vh;
+    width:180vh;
+    height:45vh;
     opacity:0;
 }
 .headtext{
