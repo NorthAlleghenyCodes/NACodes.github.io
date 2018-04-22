@@ -6,7 +6,7 @@ body{
     font-family: 'Source Code Pro', monospace;
 }
 *:focus {outline:none !important}
-@media only screen and (max-width:608px){
+@media only screen and (max-width:1065px){
  h1{
      font-size:50px !important;
  }   
@@ -17,7 +17,7 @@ body{
      font-size:20px !important;
  }
   .headimg{
-    width:90vw !important;
+    width:88vw !important;
     height:19vh !important;
 } 
 }
