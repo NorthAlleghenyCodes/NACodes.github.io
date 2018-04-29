@@ -24,6 +24,27 @@ body{
 a,a:hover,a:focus{
     color:#88CBD2;
 }
+
+/* button */
+.toTop{
+    position: fixed;
+    top: 80vh;
+    opacity: .8;
+    z-index: 100;
+
+}
+/* centering button */
+.centerButton {
+
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 10vw;
+
+}
+
 /*NAV STYLES*/
 #navbut{
     transition:0.1s;
