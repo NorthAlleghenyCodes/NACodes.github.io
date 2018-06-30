@@ -6,6 +6,20 @@ body{
     font-family: 'Source Code Pro', monospace;
 }
 *:focus {outline:none !important}
+@media only screen and (max-width: 1000px){
+
+	.countdown-width{
+		width: 80%;
+	}
+
+	.countdown-time{
+		font-size: 30px;
+	}
+
+	.countdown-label{
+		font-size: 15px;
+	}
+}
 @media only screen and (max-width:1065px){
  h1{
      font-size:50px !important;
@@ -16,13 +30,38 @@ body{
  h5{
      font-size:20px !important;
  }
-  .headimg{
+.headimg{
     width:88vw !important;
     height:19vh !important;
-} 
+}
+
+
 }
 a,a:hover,a:focus{
     color:#88CBD2;
+}
+/*COUNTDOWN STYLES*/
+.countdown-width{
+   opacity: 0;
+	width: 38%;
+	margin: 0 auto;
+}
+
+.countdown-fill{
+/*	background-color: rgba(0,0,0,0.1);*/
+}
+
+.countdown-time{
+	font-size: 40px;
+	 color:rgb(233,186,0);
+}
+
+.countdown-label{
+	font-size: 20px;
+	 color:rgb(233,186,0);
+}
+.clocktext{
+    opacity:0;
 }
 /*NAV STYLES*/
 #navbut{
@@ -39,7 +78,7 @@ a,a:hover,a:focus{
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: rgba(0,0,0,0.9);
     overflow-x: hidden;
     transition: 0.4s;
@@ -85,7 +124,7 @@ a,a:hover,a:focus{
     background-position:center;
     background-attachment:fixed;
      width:100%;
-     height:100vh;
+     
 }
 .headimg{
     display:block;
@@ -317,6 +356,18 @@ td,thead{
 .teach-img:hover{
     height:210px;
     width:230px;
+}
+.teach-img2{
+    height:200px;
+    width:200px;
+    display:block;
+    margin:0 auto;
+    border-radius: 50%;
+    transition: all .2s ease-in-out; 
+}
+.teach-img2:hover{
+    height:210px;
+    width:210px;
 }
 
 .collapsible {
